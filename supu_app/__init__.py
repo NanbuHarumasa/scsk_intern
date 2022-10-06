@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 app.secret_key = b'ftuajii'
-import test.main
+import supu_app.main
 
-from test import db
+from supu_app import db
 db.create_books_table()
