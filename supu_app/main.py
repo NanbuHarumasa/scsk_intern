@@ -1,4 +1,4 @@
-from test import app
+from supu_app import app
 from flask import render_template, request, redirect, url_for, flash
 import sqlite3
 import re
