@@ -1,4 +1,4 @@
-# 
+# scsk_intern_supuapp_sample
 ## How to use
 - deep_learning_cnn_classを実行ファイルと同階層に置く
   - `from deep_learning_cnn_class import DeepLearningCnnClassifier, GradCam, set_seed`でインポートする
