@@ -1,5 +1,5 @@
 from es_manager import app
-from flask import render_template, request, redirect, url_for, flash
+from flask import render_template, request, redirect, url_for, flash, session
 import sqlite3
 import re
 
