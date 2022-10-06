@@ -1,4 +1,4 @@
-# scsk_intern_supuapp_sample
+# scsk_intern
 ## How to use
 1. `https://www.curict.com/item/60/60bfe0e.html`などを参考にPCにGitをインストール、python3.10をインストール
 2. PowerShell等で任意のディレクトリに移動し`git clone https://github.com/taiseifujisawa/scsk_intern_supuapp_sample.git`を実行してリポジトリをクローン
