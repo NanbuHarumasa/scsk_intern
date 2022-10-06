@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block head %}
+  <title>{{id}}</title>
+{% endblock %}
+{% block body %}
+  <h2>編集</h2>
+  <form method="post" action="{{ url_for('update', id=id) }}">
+    <table border="1">
+      <tr>
+        <th>入荷日</th>
+        <th>タイトル</th>
+        <th>金額</th>
+      </tr>
+      <tr>
+        <td><input type="date" name="arrival_day" value="{{arrival_day}}" required></td>
+        <td><input type="text" name="title" value="{{title}}" required></td>
+        <td><input type="text" name="price" value="{{price}}" required></td>
+      </tr>
+    </table>
+    <br>
+    <input type="submit" value="変更確定">
+  </form>
+  <form method="post" action="{{ url_for('delete', id=id) }}">
+    <input type="submit" value="削除">
+  </form>
+{% endblock %}

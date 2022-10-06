@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block head %}
+  <title>form</title>
+{% endblock %}
+{% block body %}
+  <h2>新規登録</h2>
+  <form method="post" action="{{ url_for('register') }}">
+    <table border="1">
+      <tr>
+        <th>入荷日</th>
+        <th>タイトル</th>
+        <th>金額</th>
+      </tr>
+      <tr>
+        <td><input type="date" name="arrival_day" value="{{arrival_day}}" required></td>
+        <td><input type="text" name="title" value="{{title}}" required></td>
+        <td><input type="text" name="price" value="{{price}}" required></td>
+      </tr>
+    </table>
+    <br>
+    <input type="submit" value="新規登録">
+  </form>
+{% endblock %}
