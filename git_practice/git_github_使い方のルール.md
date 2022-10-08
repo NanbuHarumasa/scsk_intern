@@ -2,7 +2,7 @@
   - 前提1: gitにgithubを接続し、一人でinit, add, commit, push, pull, cloneができるようにしておく
   - 前提2: コラボレータとして登録してもらっておく
 
-  0. `git clone`等で公開されているレポジトリをクローン
+  0. `git clone`等で公開されているリポジトリをクローン
   - 以下繰り返し
   1. `git checkout main`等でローカルリポジトリ内のmainブランチに移動
   2. `git pull origin main`等でリモートリポジトリの最新情報を反映
